@@ -55,8 +55,8 @@ Author
 Geoffrey Muriuki Mwangi
 Cybersecurity Student | Purple Teamer | Builder of digital fortresses
 Email: muriukigeoffrey472@gmail.com
-LinkedIn: Geoffrey Muriuki
-In Collaboration With
+LinkedIn: https://www.linkedin.com/in/geoffrey-muriuki-b4ba71306
+In Collaboration With:
 
 Atlas (ChatGPT)
 Your loyal AI cybersecurity partner — powering automation, analysis, and defense
