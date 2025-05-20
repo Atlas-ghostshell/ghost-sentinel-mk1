@@ -4,7 +4,7 @@ SSH Brute-force Detection &amp; Auto-Mitigation using iptables + systemd
 
 Ghost-Sentinel Mk1 is a real-time SSH brute-force detection and mitigation tool written in Python. It monitors authentication logs using journalctl, detects multiple failed login attempts from the same IP address, and automatically blocks those IPs using iptables. Offending IPs are unbanned after a set period — ensuring dynamic protection without manual intervention.
 
-Features
+## Features
 
  Real-time SSH log monitoring
 
@@ -18,7 +18,7 @@ Features
 
  Lightweight and customizable
 
-How It Works
+## How It Works
 
  Uses journalctl -kf to stream live SSH logs.
 
@@ -32,7 +32,7 @@ How It Works
 
  After 1 hour, IPs are automatically unbanned.
 
-Installation
+## Installation
 
  Clone the repository:
 
@@ -54,26 +54,26 @@ Manual run (testing):
 
       sudo python3 /opt/ghost-sentinel/ghost_sentinel_mk1.py
 
-Persistent setup:
+## Persistent setup:
 
 You can run Ghost-Sentinel Mk1 as a background daemon using a systemd service. This ensures it starts automatically on boot and runs with root privileges.
 
-Requirements
+## Requirements
 
-    Python 3.x
+   Python 3.x
 
-    Root privileges (for iptables operations)
+   Root privileges (for iptables operations)
 
-    System using systemd and journalctl
+   System using systemd and journalctl
 
-Disclaimer
+## Disclaimer
 
 This script is for educational purposes and lab environments. Ensure proper security and logging configurations before deploying in production.
 License
 
 MIT License
 
-Author
+## Author
 
 Geoffrey Muriuki Mwangi
 Cybersecurity Student | Purple Teamer | Builder of digital fortresses
